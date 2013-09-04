@@ -9,10 +9,8 @@ website was made by me (founder and club president) for the club. It has our con
 Thanks for reading this!
 
 
-[Link](errorrat.github.io)
+- [Link](errorrat.github.io)
 
-Email:
+- Email: <a href="mailto:luke@lukeaslanian.com">Email Me</a> 
 
-<a href="mailto:luke@lukeaslanian.com">Email Me</a> 
-
-My other projects include lukeaslanian.com.
+My other projects include lukeaslanian.com (PHSTARS on github) and others coming soon!
