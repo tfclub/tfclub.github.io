@@ -13,6 +13,6 @@ Thanks for reading this!
 
 Email:
 
-[<a href="mailto:luke@lukeaslanian.com">Email Me</a> 
+<a href="mailto:luke@lukeaslanian.com">Email Me</a> 
 
 My other projects include lukeaslanian.com.
