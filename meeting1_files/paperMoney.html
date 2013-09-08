@@ -1,0 +1,329 @@
+
+<!-- saved from url=(0084)https://papermoney.thinkorswim.com/tos/myAccounts/paperMoneyInterface/paperMoney.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Paper Money Sign-Up</title>
+	<meta name="TITLE" content="">
+	<meta name="DESCRIPTION" content="">
+
+	<script language="javascript" src="scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="general.css">
+<style type="text/css"></style></head>
+
+<body onload="errorContainerSwitch();init(&#39;&#39;,&#39;&#39;,&#39;&#39;,&#39;&#39;);displayUS()">
+<div class="navigation">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody>
+        <tr><td style="padding-bottom: 5px;"><img alt="Home" src="logo.gif"></td></tr>
+        <tr><td class="grnStripe"></td></tr>
+        <tr><td class="gryStripe"></td></tr>
+    </tbody></table>
+</div>
+
+<div class="contentFrame">
+    <table cellspacing="0" width="486">
+        <tbody><tr valign="top">
+            <td width="100%">
+                <div class="header">Sign-Up for paperMoney<sup>®</sup></div>
+                <sup><img border="0" src="required.gif"></sup>
+                <span class="req">required information</span>
+
+                <table cellspacing="0" cellpadding="0" border="0" class="h01">
+                    <tbody><tr>
+                    <td>Sign-Up information</td>
+                    </tr>
+                </tbody></table>
+
+        <div id="errorContainer" class="errorContainer" style="display: none;">
+            <div id="errrors" class="errrors_roundiv">
+                <b class="errrors_c errrors_e">
+                    <b class="errrors_a errrors_e errrors_f errrors_h "></b>
+                    <b class="errrors_a errrors_e errrors_f errrors_i"><b class="errrors_b errrors_e errrors_f errrors_j r2i"></b></b>
+                    <b class="errrors_a errrors_e errrors_f errrors_j"><b class="errrors_b errrors_e errrors_f errrors_k r3i"></b></b>
+                    <b class="errrors_a errrors_e errrors_g errrors_k"><b class="errrors_b errrors_e errrors_g errrors_k r4i"></b></b>
+                </b>
+                <div class="errrors_b errrors_d errrors_k">
+                    <table cellspacing="2" cellpadding="3" border="0">
+                    <tbody><tr>
+                    <td valign="top"><img height="18" width="18" align="top" src="error.gif" alt=""></td>
+                    <td><div class="spacer" style="width: 5px;"></div></td>
+                    <td><div id="errorMessage"> </div><br></td>
+                    </tr></tbody>
+                    </table>
+                </div>
+                <b class="errrors_c errrors_e">
+                    <b class="errrors_a errrors_e errrors_g errrors_k"><b class="errrors_b errrors_e errrors_g errrors_k"></b></b>
+                    <b class="errrors_a errrors_e errrors_f errrors_j"><b class="errrors_b errrors_e errrors_f errrors_k"></b></b>
+                    <b class="errrors_a errrors_e errrors_f errrors_i"><b class="errrors_b errrors_e errrors_f errrors_j"></b></b>
+                    <b class="errrors_a errrors_e errrors_f errrors_h "></b>
+                </b>
+            </div>
+        </div>
+
+
+
+
+    <form name="paperMoney" id="paperMoney" method="POST" action="https://papermoney.thinkorswim.com/tos/myAccounts/createBasicAccount.tos" onsubmit="return validateForm()">
+    <!--- SECTION ONE  ---->
+            <table cellspacing="0" cellpadding="0" border="0" class="f01" width="486">
+            <tbody>
+            <tr class="top">
+            <td colspan="5"></td>
+            </tr>
+
+            <tr>
+            <td rowspan="100"><div class="spacer" style="width: 6px;"></div></td>
+            <td id="p1" rowspan="9" class="pieceOff"><div class="spacer" style="width: 12px;"></div></td>
+            <td rowspan="100"><div class="spacer" style="width: 12px;"></div></td>
+            <td id="username" class="fieldlabel" colspan="2" width="456"><a name=""></a><b>Choose a User Name&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            </tr>
+
+            <tr>
+            <td colspan="2"><input type="text" class="text" name="username" value="" style="width:218px;" maxlength="15" onfocus="selectPiece(1);"><br>
+<p style="font-size:11px; padding:0 0 12px 0;">Username must be a combination of 8-15 letters and numbers (no special characters).</p></td>
+            </tr>
+
+            <tr>
+            <td width="456" id="password" class="fieldlabel"><a name=""></a><b>Choose a Password&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            <td width="228" id="confirmPassword" class="fieldlabel"><a name=""></a><b>Confirm Password&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            </tr>
+
+            <tr>
+            <td><input type="password" name="password" class="text" value="" style="width:218px;" maxlength="15" onfocus="selectPiece(1);"></td>
+            <td><input type="password" name="confirmPassword" class="text" value="" style="width:218px;" maxlength="15" onfocus="selectPiece(1);"></td>
+              </tr>
+
+            <tr>
+              <td colspan="2"><p style="font-size:11px; padding:0 0 12px 0;">Password must be 7-15 characters, using both letters and numbers (at least one of each) and no special characters. Your password cannot be the same as your Username.</p></td>
+              </tr>
+              
+
+            <tr>
+            <td id="email" class="fieldlabel"><a name=""></a><b>Primary Email&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            <td id="confirmEmail" class="fieldlabel"><a name=""></a><b>Confirm Primary Email&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            </tr>
+
+            <tr>
+            <td><input type="text" name="email" class="text" value="" style="width:218px;" maxlength="50" onfocus="selectPiece(1);"></td>
+            <td><input type="text" name="confirmEmail" class="text" value="" style="width:218px;" maxlength="50" onfocus="selectPiece(1);"></td>
+            </tr>
+
+            <tr>
+            <td class="hr" colspan="2">&nbsp;</td>
+            </tr>
+            </tbody></table>
+
+
+
+    <!--- SECTION TWO  ---->
+            <table cellspacing="0" cellpadding="0" border="0" class="f01" width="486">
+            <tbody>
+            <tr class="top">
+            <td colspan="5"></td>
+            </tr>
+
+            <tr>
+            <td rowspan="99"><div class="spacer" style="width: 6px;"></div></td>
+            <td id="p2" rowspan="99" class="pieceOff"><div class="spacer" style="width: 12px;"></div></td>
+            <td rowspan="99"><div class="spacer" style="width: 12px;"></div></td>
+            <td width="228" id="firstName" class="fieldlabel"><a name=""></a><b>First Name&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            <td width="228" id="middleName" class="fieldlabel"><a name=""></a><b>Middle Name</b></td>
+            </tr>
+
+            <tr>
+            <td><input type="text" name="firstName" class="text" value="" style="width:218px;" maxlength="20" onfocus="selectPiece(2);"></td>
+            <td><input type="text" name="middleName" class="text" value="" style="width:218px;" maxlength="20" onfocus="selectPiece(2);"></td>
+            </tr>
+
+            <tr>
+            <td id="lastName" class="fieldlabel" colspan="2"><a name=""></a><b>Last Name&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            </tr>
+            <tr>
+            <td colspan="2"><input type="text" class="text" name="lastName" value="" style="width:218px;" maxlength="30" onfocus="selectPiece(2);"></td>
+            </tr>
+
+            <tr>
+            <td class="hr" colspan="2">&nbsp;</td>
+            </tr>
+            </tbody></table>
+
+    <!--- SECTION THREE  ---->
+            <table cellspacing="0" cellpadding="0" border="0" class="f01" width="486">
+            <tbody><tr class="top">
+            <td colspan="5"></td>
+            </tr>
+
+            <tr>
+            <td rowspan="99"><div class="spacer" style="width: 6px;"></div></td>
+            <td id="p3" rowspan="99" class="pieceOff"><div class="spacer" style="width: 12px;"></div></td>
+            <td rowspan="99"><div class="spacer" style="width: 12px;"></div></td>
+            <td class="fieldlabel" colspan="2"><a name=""></a><b>Country of Citizenship&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            </tr>
+
+            <tr>
+            <td width="228"><select onfocus="selectPiece(3);" name="citizenship" style="width: 218px;"><option value="USA">UNITED STATES OF AMERICA</option><option value="AFGHANISTAN">AFGHANISTAN</option><option value="ALBANIA">ALBANIA</option><option value="ALGERIA">ALGERIA</option><option value="AMERICAN SAMOA">AMERICAN SAMOA</option><option value="ANDORRA">ANDORRA</option><option value="ANGOLA">ANGOLA</option><option value="ANGUILLA">ANGUILLA</option><option value="ANTARCTICA">ANTARCTICA</option><option value="ANTIGUA ">ANTIGUA &amp; BARBUDA</option><option value="ARGENTINA">ARGENTINA</option><option value="ARMENIA">ARMENIA</option><option value="ARUBA">ARUBA</option><option value="ASHMORE AND CARTIER ISLANDS">ASHMORE AND CARTIER ISLANDS</option><option value="AZERBAIJAN">AZERBAIJAN</option><option value="BAHAMAS">BAHAMAS</option><option value="BAHRAIN">BAHRAIN</option><option value="BAKER ISLAND">BAKER ISLAND</option><option value="BANGLADESH">BANGLADESH</option><option value="BARBADOS">BARBADOS</option><option value="BASSAS DA INDIA">BASSAS DA INDIA</option><option value="BELARUS">BELARUS</option><option value="BELGIUM">BELGIUM</option><option value="BELIZE ">BELIZE (BRITISH HONDURAS)</option><option value="BENIN">BENIN</option><option value="BERMUDA">BERMUDA</option><option value="BHUTAN">BHUTAN</option><option value="BOLIVIA">BOLIVIA</option><option value="BOSNIA ">BOSNIA &amp; HERCEGOVINA</option><option value="BOTSWANA">BOTSWANA</option><option value="BOUVET ISLAND">BOUVET ISLAND</option><option value="BRAZIL">BRAZIL</option><option value="BRITISH INDIAN OCEAN TERRITORY">BRITISH INDIAN OCEAN TERRITORY</option><option value="BRT VIRGIN ISLANDS">BRT VIRGIN ISLANDS</option><option value="BRUNEI">BRUNEI</option><option value="BULGARIA">BULGARIA</option><option value="BURMA ">BURMA (MYANMAR)</option><option value="BURUNDI">BURUNDI</option><option value="CAMBODIA">CAMBODIA</option><option value="CAMEROON">CAMEROON</option><option value="CAPE VERDE">CAPE VERDE, REPUBLIC OF</option><option value="CAYMAN ISLANDS">CAYMAN ISLANDS</option><option value="CENTRAL AFRICA REPUBLIC">CENTRAL AFRICA REPUBLIC</option><option value="CHAD">CHAD</option><option value="CHILE">CHILE</option><option value="CHINA ">CHINA (PEOPLES REPUBLIC)</option><option value="CHRISTMAS ISLAND">CHRISTMAS ISLAND</option><option value="CLIPPERTON ISLAND">CLIPPERTON ISLAND</option><option value="COCOS ">COCOS (KEELING) ISLANDS</option><option value="COLOMBIA">COLOMBIA</option><option value="COMOROS">COMOROS</option><option value="COOK ISLANDS">COOK ISLANDS</option><option value="CORAL SEA ISLANDS TERRITORY">CORAL SEA ISLANDS TERRITORY</option><option value="COSTA RICA">COSTA RICA</option><option value="COTE D IVOIRE ">COTE D IVOIRE (IVORY COAST)</option><option value="CROATIA">CROATIA</option><option value="DJIBOUTI">DJIBOUTI</option><option value="DOMINICA">DOMINICA</option><option value="DOMINICAN REPUBLIC">DOMINICAN REPUBLIC</option><option value="EAST TIMOR">EAST TIMOR</option><option value="ECUADOR">ECUADOR</option><option value="EGYPT">EGYPT</option><option value="EL SALVADOR">EL SALVADOR</option><option value="EQUATORIAL GUINEA">EQUATORIAL GUINEA</option><option value="ERITREA">ERITREA</option><option value="ETHIOPIA">ETHIOPIA</option><option value="EUROPA ISLAND">EUROPA ISLAND</option><option value="FALKLAND ISLANDS">FALKLAND ISLANDS</option><option value="FAROE ISLANDS">FAROE ISLANDS</option><option value="FIJI">FIJI</option><option value="FRANCE">FRANCE</option><option value="FRENCH GUIANA">FRENCH GUIANA</option><option value="FRENCH POLYNESIA">FRENCH POLYNESIA</option><option value="GABON">GABON</option><option value="GAMBIA">GAMBIA</option><option value="GAZA STRIP">GAZA STRIP</option><option value="GEORGIA">GEORGIA</option><option value="GERMANY">GERMANY</option><option value="GHANA">GHANA</option><option value="GLORIOSO ISLANDS">GLORIOSO ISLANDS</option><option value="GREENLAND">GREENLAND</option><option value="GRENADA">GRENADA</option><option value="GUADELOUPE">GUADELOUPE</option><option value="GUAM">GUAM</option><option value="GUATEMALA">GUATEMALA</option><option value="GUINEA">GUINEA</option><option value="GUINEA">GUINEA-BISSAU</option><option value="GUYANA">GUYANA</option><option value="HAITI">HAITI</option><option value="HEARD ISL ">HEARD ISL &amp; MCDONALD ISL</option><option value="HONDURAS">HONDURAS</option><option value="HONG KONG">HONG KONG</option><option value="HOWLAND ISLAND">HOWLAND ISLAND</option><option value="ICELAND">ICELAND</option><option value="INDIA">INDIA</option><option value="INDONESIA">INDONESIA</option><option value="IRAQ">IRAQ</option><option value="IRELAND">IRELAND</option><option value="ISLE OF MAN">ISLE OF MAN</option><option value="ISRAEL">ISRAEL</option><option value="JAMAICA">JAMAICA</option><option value="JAN MAYEN">JAN MAYEN</option><option value="JERSEY">JERSEY</option><option value="JOHNSTON ATOLL">JOHNSTON ATOLL</option><option value="JORDAN">JORDAN</option><option value="JUAN DE NOVA ISLAND">JUAN DE NOVA ISLAND</option><option value="KAZAKHSTAN">KAZAKHSTAN</option><option value="KENYA">KENYA</option><option value="KINGMAN REEF">KINGMAN REEF</option><option value="KIRIBATI">KIRIBATI</option><option value="KOREA S REPUBLIC OF">KOREA S REPUBLIC OF</option><option value="KUWAIT">KUWAIT</option><option value="KYRGYZSTAN">KYRGYZSTAN</option><option value="LAOS">LAOS</option><option value="LEBANON">LEBANON</option><option value="LESOTHO">LESOTHO</option><option value="LIBERIA">LIBERIA</option><option value="LIBYA">LIBYA</option><option value="LIECHTENSTEIN">LIECHTENSTEIN</option><option value="MACAO">MACAO</option><option value="MACEDONIA">MACEDONIA</option><option value="MADAGASCAR">MADAGASCAR</option><option value="MALAWI">MALAWI</option><option value="MALAYSIA">MALAYSIA</option><option value="MALDIVES">MALDIVES</option><option value="MALI">MALI</option><option value="MARSHALL ISLANDS">MARSHALL ISLANDS</option><option value="MARTINIQUE">MARTINIQUE</option><option value="MAURITANIA">MAURITANIA</option><option value="MAURITIUS">MAURITIUS</option><option value="MAYOTTE">MAYOTTE</option><option value="MEXICO">MEXICO</option><option value="MICRONESIA">MICRONESIA, FED STATES</option><option value="MIDWAY ISLANDS">MIDWAY ISLANDS</option><option value="MOLDOVA">MOLDOVA</option><option value="MONACO">MONACO</option><option value="MONGOLIA">MONGOLIA</option><option value="MONSERRAT">MONSERRAT</option><option value="MONTENEGRO">MONTENEGRO</option><option value="MOROCCO">MOROCCO</option><option value="MOZAMBIQUE">MOZAMBIQUE</option><option value="N">N. MARIANA ISLANDS</option><option value="NAURU">NAURU</option><option value="NAVASSA ISLAND">NAVASSA ISLAND</option><option value="NEPAL">NEPAL</option><option value="NETHERLANDS ">NETHERLANDS (HOLLAND)</option><option value="NETHERLANDS ANTILLES">NETHERLANDS ANTILLES</option><option value="NEW CALEDONIA">NEW CALEDONIA</option><option value="NICARAGUA">NICARAGUA</option><option value="NIGER">NIGER</option><option value="NIGERIA">NIGERIA</option><option value="NIUE">NIUE</option><option value="NORFOLK ISLAND">NORFOLK ISLAND</option><option value="N MARIANA ISLANDS">N MARIANA ISLANDS</option><option value="NORWAY">NORWAY</option><option value="OMAN">OMAN</option><option value="PAKISTAN">PAKISTAN</option><option value="PALAU">PALAU</option><option value="PANAMA">PANAMA</option><option value="PAPUA">PAPUA-NEW GUINEA</option><option value="PARACEL ISLANDS">PARACEL ISLANDS</option><option value="PARAGUAY">PARAGUAY</option><option value="PERU">PERU</option><option value="PHILIPPINES">PHILIPPINES</option><option value="PITCAIRN">PITCAIRN</option><option value="PORTUGUESE TIMOR">PORTUGUESE TIMOR</option><option value="PUERTO RICO">PUERTO RICO</option><option value="QATAR">QATAR</option><option value="REUNION">REUNION</option><option value="ROMANIA">ROMANIA</option><option value="RUSSIA">RUSSIA</option><option value="RWANDA">RWANDA</option><option value="SAN MARINO">SAN MARINO</option><option value="SAO TOME ">SAO TOME &amp; PRINCIPE</option><option value="SAUDI ARABIA">SAUDI ARABIA</option><option value="SENEGAL">SENEGAL</option><option value="SERBIA">SERBIA</option><option value="SEYCHELLES">SEYCHELLES</option><option value="SIERRA LEONE">SIERRA LEONE</option><option value="SOLOMON ISLANDS">SOLOMON ISLANDS</option><option value="SOMALIA">SOMALIA</option><option value="SOUTH AFRICA">SOUTH AFRICA</option><option value="S GEORGIA ">S GEORGIA &amp; S SANDWICH ISL</option><option value="S">S-WEST AFRICA (NAMIBIA)</option><option value="SPRATLY ISLANDS">SPRATLY ISLANDS</option><option value="SRI LANKA ">SRI LANKA (CEYLON)</option><option value="ST HELENA">ST HELENA</option><option value="ST KITTS AND NEVIS">ST KITTS AND NEVIS</option><option value="ST LUCIA">ST LUCIA</option><option value="ST PIERRE ">ST PIERRE &amp; MIQUELON</option><option value="ST VINCENT">ST VINCENT</option><option value="SURINAME">SURINAME</option><option value="SVALBARD">SVALBARD</option><option value="SWAZILAND">SWAZILAND</option><option value="SWITZERLAND">SWITZERLAND</option><option value="TAIWAN">TAIWAN</option><option value="TAJIKISTAN">TAJIKISTAN</option><option value="TANZANIA">TANZANIA</option><option value="THAILAND">THAILAND</option><option value="TOGO">TOGO</option><option value="TOKELAU ISLANDS">TOKELAU ISLANDS</option><option value="TONGA">TONGA</option><option value="TRINIDAD ">TRINIDAD &amp; TOBAGO</option><option value="TROMELIN ISLAND">TROMELIN ISLAND</option><option value="TRUST TERR PACIFIC ISLANDS">TRUST TERR PACIFIC ISLANDS</option><option value="TUNISIA">TUNISIA</option><option value="TURKEY">TURKEY</option><option value="TURKMENISTAN">TURKMENISTAN</option><option value="TURKS ">TURKS &amp; CAICOS ISLANDS</option><option value="TUVALU">TUVALU</option><option value="UGANDA">UGANDA</option><option value="UKRAINE">UKRAINE</option><option value="UNITA ">UNITA (ANGOLA)</option><option value="UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</option><option selected="true" value="USA">UNITED STATES OF AMERICA</option><option value="URUGUAY">URUGUAY</option><option value="US VIRGIN ISLANDS">US VIRGIN ISLANDS</option><option value="UZBEKISTAN">UZBEKISTAN</option><option value="VANUATU">VANUATU</option><option value="VATICAN CITY">VATICAN CITY</option><option value="VENEZUELA">VENEZUELA</option><option value="VIETNAM">VIETNAM</option><option value="WAKE ISLAND">WAKE ISLAND</option><option value="WALLIS ">WALLIS &amp; FUTUNA</option><option value="WEST BANK">WEST BANK</option><option value="WESTERN SAHARA">WESTERN SAHARA</option><option value="WESTERN SAMOA">WESTERN SAMOA</option><option value="YEMEN">YEMEN</option><option value="ZAIRE">ZAIRE</option><option value="ZAMBIA">ZAMBIA</option><option value="ZIMBABWE">ZIMBABWE</option></select></td>
+            <td width="228"><span class="glossary" onclick="glossary(event,1);">Why isn't my country here?</span></td>
+            </tr>
+
+            <tr>
+            <td class="fieldlabel topPad" colspan="2"><a name=""></a><b>Country of Residence&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+            </tr>
+
+            <tr>
+            <td><select onfocus="selectPiece(3);" onchange="displayUS();clearState();" name="country" style="width: 218px;"><option value="USA">UNITED STATES OF AMERICA</option><option value="ALBANIA">ALBANIA</option><option value="ALGERIA">ALGERIA</option><option value="AMERICAN SAMOA">AMERICAN SAMOA</option><option value="ANTARCTICA">ANTARCTICA</option><option value="ARGENTINA">ARGENTINA</option><option value="ARMENIA">ARMENIA</option><option value="ASHMORE AND CARTIER ISLANDS">ASHMORE AND CARTIER ISLANDS</option><option value="BAHRAIN">BAHRAIN</option><option value="BAKER ISLAND">BAKER ISLAND</option><option value="BANGLADESH">BANGLADESH</option><option value="BARBADOS">BARBADOS</option><option value="BASSAS DA INDIA">BASSAS DA INDIA</option><option value="BENIN">BENIN</option><option value="BERMUDA">BERMUDA</option><option value="BHUTAN">BHUTAN</option><option value="BOTSWANA">BOTSWANA</option><option value="BOUVET ISLAND">BOUVET ISLAND</option><option value="BRAZIL">BRAZIL</option><option value="BRITISH INDIAN OCEAN TERRITORY">BRITISH INDIAN OCEAN TERRITORY</option><option value="BRT VIRGIN ISLANDS">BRT VIRGIN ISLANDS</option><option value="BRUNEI">BRUNEI</option><option value="BULGARIA">BULGARIA</option><option value="BURUNDI">BURUNDI</option><option value="CAMBODIA">CAMBODIA</option><option value="CAMEROON">CAMEROON</option><option value="CAPE VERDE">CAPE VERDE, REPUBLIC OF</option><option value="CENTRAL AFRICA REPUBLIC">CENTRAL AFRICA REPUBLIC</option><option value="CHAD">CHAD</option><option value="CHILE">CHILE</option><option value="CHINA ">CHINA (PEOPLES REPUBLIC)</option><option value="CHRISTMAS ISLAND">CHRISTMAS ISLAND</option><option value="CLIPPERTON ISLAND">CLIPPERTON ISLAND</option><option value="COCOS ">COCOS (KEELING) ISLANDS</option><option value="COLOMBIA">COLOMBIA</option><option value="COMOROS">COMOROS</option><option value="COOK ISLANDS">COOK ISLANDS</option><option value="CORAL SEA ISLANDS TERRITORY">CORAL SEA ISLANDS TERRITORY</option><option value="COSTA RICA">COSTA RICA</option><option value="CROATIA">CROATIA</option><option value="DJIBOUTI">DJIBOUTI</option><option value="DOMINICA">DOMINICA</option><option value="DOMINICAN REPUBLIC">DOMINICAN REPUBLIC</option><option value="EAST TIMOR">EAST TIMOR</option><option value="EGYPT">EGYPT</option><option value="EL SALVADOR">EL SALVADOR</option><option value="EQUATORIAL GUINEA">EQUATORIAL GUINEA</option><option value="ERITREA">ERITREA</option><option value="EUROPA ISLAND">EUROPA ISLAND</option><option value="FALKLAND ISLANDS">FALKLAND ISLANDS</option><option value="FAROE ISLANDS">FAROE ISLANDS</option><option value="FIJI">FIJI</option><option value="FRANCE">FRANCE</option><option value="FRENCH GUIANA">FRENCH GUIANA</option><option value="FRENCH POLYNESIA">FRENCH POLYNESIA</option><option value="GABON">GABON</option><option value="GAMBIA">GAMBIA</option><option value="GAZA STRIP">GAZA STRIP</option><option value="GEORGIA">GEORGIA</option><option value="GERMANY">GERMANY</option><option value="GHANA">GHANA</option><option value="GLORIOSO ISLANDS">GLORIOSO ISLANDS</option><option value="GREENLAND">GREENLAND</option><option value="GRENADA">GRENADA</option><option value="GUADELOUPE">GUADELOUPE</option><option value="GUAM">GUAM</option><option value="GUATEMALA">GUATEMALA</option><option value="GUINEA">GUINEA</option><option value="GUINEA">GUINEA-BISSAU</option><option value="GUYANA">GUYANA</option><option value="HAITI">HAITI</option><option value="HEARD ISL ">HEARD ISL &amp; MCDONALD ISL</option><option value="HONDURAS">HONDURAS</option><option value="HONG KONG">HONG KONG</option><option value="HOWLAND ISLAND">HOWLAND ISLAND</option><option value="ICELAND">ICELAND</option><option value="INDIA">INDIA</option><option value="IRELAND">IRELAND</option><option value="ISRAEL">ISRAEL</option><option value="JAMAICA">JAMAICA</option><option value="JAN MAYEN">JAN MAYEN</option><option value="JOHNSTON ATOLL">JOHNSTON ATOLL</option><option value="JORDAN">JORDAN</option><option value="JUAN DE NOVA ISLAND">JUAN DE NOVA ISLAND</option><option value="KAZAKHSTAN">KAZAKHSTAN</option><option value="KINGMAN REEF">KINGMAN REEF</option><option value="KIRIBATI">KIRIBATI</option><option value="KOREA S REPUBLIC OF">KOREA S REPUBLIC OF</option><option value="KUWAIT">KUWAIT</option><option value="KYRGYZSTAN">KYRGYZSTAN</option><option value="LAOS">LAOS</option><option value="LEBANON">LEBANON</option><option value="LESOTHO">LESOTHO</option><option value="LIBERIA">LIBERIA</option><option value="MACAO">MACAO</option><option value="MACEDONIA">MACEDONIA</option><option value="MADAGASCAR">MADAGASCAR</option><option value="MALAWI">MALAWI</option><option value="MALAYSIA">MALAYSIA</option><option value="MALDIVES">MALDIVES</option><option value="MALI">MALI</option><option value="MARSHALL ISLANDS">MARSHALL ISLANDS</option><option value="MARTINIQUE">MARTINIQUE</option><option value="MAURITANIA">MAURITANIA</option><option value="MAURITIUS">MAURITIUS</option><option value="MAYOTTE">MAYOTTE</option><option value="MEXICO">MEXICO</option><option value="MICRONESIA">MICRONESIA, FED STATES</option><option value="MIDWAY ISLANDS">MIDWAY ISLANDS</option><option value="MOLDOVA">MOLDOVA</option><option value="MONGOLIA">MONGOLIA</option><option value="MOZAMBIQUE">MOZAMBIQUE</option><option value="N">N. MARIANA ISLANDS</option><option value="NAURU">NAURU</option><option value="NAVASSA ISLAND">NAVASSA ISLAND</option><option value="NETHERLANDS ">NETHERLANDS (HOLLAND)</option><option value="NETHERLANDS ANTILLES">NETHERLANDS ANTILLES</option><option value="NEW CALEDONIA">NEW CALEDONIA</option><option value="NICARAGUA">NICARAGUA</option><option value="NIGER">NIGER</option><option value="NIUE">NIUE</option><option value="NORFOLK ISLAND">NORFOLK ISLAND</option><option value="N MARIANA ISLANDS">N MARIANA ISLANDS</option><option value="NORWAY">NORWAY</option><option value="OMAN">OMAN</option><option value="PAPUA">PAPUA-NEW GUINEA</option><option value="PARACEL ISLANDS">PARACEL ISLANDS</option><option value="PERU">PERU</option><option value="PHILIPPINES">PHILIPPINES</option><option value="PITCAIRN">PITCAIRN</option><option value="PORTUGUESE TIMOR">PORTUGUESE TIMOR</option><option value="PUERTO RICO">PUERTO RICO</option><option value="QATAR">QATAR</option><option value="REUNION">REUNION</option><option value="ROMANIA">ROMANIA</option><option value="RUSSIA">RUSSIA</option><option value="RWANDA">RWANDA</option><option value="SAN MARINO">SAN MARINO</option><option value="SAUDI ARABIA">SAUDI ARABIA</option><option value="SENEGAL">SENEGAL</option><option value="SEYCHELLES">SEYCHELLES</option><option value="SIERRA LEONE">SIERRA LEONE</option><option value="SOLOMON ISLANDS">SOLOMON ISLANDS</option><option value="SOUTH AFRICA">SOUTH AFRICA</option><option value="S GEORGIA ">S GEORGIA &amp; S SANDWICH ISL</option><option value="S">S-WEST AFRICA (NAMIBIA)</option><option value="SPRATLY ISLANDS">SPRATLY ISLANDS</option><option value="SRI LANKA ">SRI LANKA (CEYLON)</option><option value="ST HELENA">ST HELENA</option><option value="ST KITTS AND NEVIS">ST KITTS AND NEVIS</option><option value="ST LUCIA">ST LUCIA</option><option value="ST PIERRE ">ST PIERRE &amp; MIQUELON</option><option value="ST VINCENT">ST VINCENT</option><option value="SURINAME">SURINAME</option><option value="SVALBARD">SVALBARD</option><option value="SWAZILAND">SWAZILAND</option><option value="SWITZERLAND">SWITZERLAND</option><option value="TAIWAN">TAIWAN</option><option value="TAJIKISTAN">TAJIKISTAN</option><option value="TANZANIA">TANZANIA</option><option value="TOGO">TOGO</option><option value="TOKELAU ISLANDS">TOKELAU ISLANDS</option><option value="TONGA">TONGA</option><option value="TROMELIN ISLAND">TROMELIN ISLAND</option><option value="TRUST TERR PACIFIC ISLANDS">TRUST TERR PACIFIC ISLANDS</option><option value="TUNISIA">TUNISIA</option><option value="TURKEY">TURKEY</option><option value="TUVALU">TUVALU</option><option value="UGANDA">UGANDA</option><option value="UNITA ">UNITA (ANGOLA)</option><option value="UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</option><option selected="true" value="USA">UNITED STATES OF AMERICA</option><option value="URUGUAY">URUGUAY</option><option value="US VIRGIN ISLANDS">US VIRGIN ISLANDS</option><option value="UZBEKISTAN">UZBEKISTAN</option><option value="VANUATU">VANUATU</option><option value="VATICAN CITY">VATICAN CITY</option><option value="VENEZUELA">VENEZUELA</option><option value="VIETNAM">VIETNAM</option><option value="WAKE ISLAND">WAKE ISLAND</option><option value="WALLIS ">WALLIS &amp; FUTUNA</option><option value="WEST BANK">WEST BANK</option><option value="WESTERN SAHARA">WESTERN SAHARA</option><option value="WESTERN SAMOA">WESTERN SAMOA</option><option value="ZAIRE">ZAIRE</option><option value="ZAMBIA">ZAMBIA</option></select></td>
+            <td><span class="glossary" onclick="glossary(event,0);">Why isn't my country here?</span></td>
+            </tr>
+
+            <tr>
+            <td id="address1" class="fieldlabel topPad" colspan="2"><a name=""></a><b>Physical Street Address&nbsp;<sup><img border="0" src="required.gif"></sup></b> <span class="req">(No P.O. Boxes or mail drops)</span></td>
+            </tr>
+
+            <tr>
+            <td colspan="2"><input type="text" class="text" name="address1" value="" style="width:446px;" maxlength="50" onfocus="selectPiece(3);"></td>
+            </tr>
+
+            <tr>
+            <td colspan="2"><input type="text" class="text" name="address2" value="" style="width:446px;" maxlength="50" onfocus="selectPiece(3);"></td>
+            </tr>
+
+            <tr>
+            <td colspan="2">
+                <table id="USinfo" width="456" cellspacing="0" cellpadding="0" border="0" class="f01" style="display: block;">
+                    <tbody><tr>
+                        <td id="cityu" class="fieldlabel topPad" width="178"><a name=""></a><b>City&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                        <td id="stateu" class="fieldlabel topPad" width="178"><a name=""></a><b>State&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                        <td id="zipu" class="fieldlabel topPad" width="100"><a name=""></a><b>Zip Code&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="text" name="cityu" value="" style="width:160px; margin-top:0px;" maxlength="30" onfocus="selectPiece(3);"></td>
+                        <td><select name="stateu" onfocus="selectPiece(3);" style="width:160px; margin-top:0px;">
+                                  <option selected="" value="">State</option>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District of Columbia&lt;
+									</option><option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana </option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia </option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+                                </select></td>
+                        <td><input type="text" class="text" name="zipu" value="" style="width:60px;  margin-top:1px;" maxlength="5" onfocus="selectPiece(3);"></td>
+                    </tr>
+                    <tr>
+                        <td id="daytimePhoneu" colspan="3" class="fieldlabel topPad"><a name=""></a><b>Primary Phone Number&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">(&nbsp;<input type="text" class="note phone3" onfocus="selectPiece(3);" onkeyup="TabNext(this,&#39;up&#39;,3,this.form.Phone_2)" onkeydown="TabNext(this,&#39;down&#39;,3)" maxlength="3" size="3" name="Phone_1">&nbsp;)&nbsp;
+                        <input type="text" class="note phone3" onfocus="selectPiece(3);" onkeyup="TabNext(this,&#39;up&#39;,3,this.form.Phone_3)" onkeydown="TabNext(this,&#39;down&#39;,3)" maxlength="3" size="3" name="Phone_2">&nbsp;-
+                        <input type="text" class="note phone4" onfocus="selectPiece(3);" maxlength="4" size="4" name="Phone_3">
+                        </td>
+
+                    </tr>
+                </tbody></table>
+            </td>
+            </tr>
+
+            <tr>
+            <td colspan="2">
+                <table id="nonUSinfo" width="456" cellspacing="0" cellpadding="0" border="0" class="f01" style="display: none;">
+                    <tbody><tr>
+                        <td id="city" class="fieldlabel topPad" width="178"><a name=""></a><b>City&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                        <td id="state" class="fieldlabel topPad" width="178"><a name=""></a><b>State/Province&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                        <td id="zip" class="fieldlabel topPad" width="100"><a name=""></a><b>Postal Code&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="text" name="city" value="" style="width:160px;" maxlength="30" onfocus="selectPiece(3);"></td>
+                        <td><input type="text" class="text" name="state" value="" style="width:160px;" maxlength="25" onfocus="selectPiece(3);"></td>
+                        <td><input type="text" class="text" name="zip" value="" style="width:60px;" maxlength="20" onfocus="selectPiece(3);"></td>
+                    </tr>
+                    <tr>
+                        <td id="daytimePhone" colspan="3" class="fieldlabel topPad"><a name=""></a><b>Primary Phone Number&nbsp;<sup><img border="0" src="required.gif"></sup></b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="text" class="text" name="daytimePhone" value="" style="width:160px;" maxlength="15" onfocus="selectPiece(3);"></td>
+                    </tr>
+                </tbody></table>
+            </td>
+            </tr>
+
+            <tr>
+            <td width="" class="hr" colspan="2">&nbsp;</td>
+            </tr>
+
+            </tbody></table>
+          <div class="privacyLink"><span onclick="popWindow();">TD Ameritrade Privacy Statement</span></div>
+           <div class="button"> <input type="image" class="button" src="buttonNext.gif" value="Next"> </div>
+
+    </form>
+            </td>
+        </tr>
+    </tbody></table>
+
+
+    <div id="g" style="position: absolute; left: 191px; top: 460px; z-index: 10000; display:none;" class="g">
+    <div id="gTable" class="gTable">
+    <table cellspacing="0" cellpadding="0" border="0" class="h03">
+    <tbody><tr>
+    <td><b>TD AMERITRADE Glossary</b></td><td><a href="https://papermoney.thinkorswim.com/tos/myAccounts/paperMoneyInterface/paperMoney.jsp#null" onclick="document.getElementById(&#39;g&#39;).style.display=&#39;none&#39;;"><img height="11" width="11" src="glossClose.gif"></a></td>
+    </tr>
+    </tbody></table>
+    <table cellspacing="0" cellpadding="0" border="0" class="g01">
+    <tbody><tr class="content">
+    <td id="gContent"><b>Why isn't my country here?</b><br>TD AMERITRADE restricts residents of certain countries from opening an account.<p></p></td>
+    </tr>
+    </tbody></table>
+    </div>
+    <div id="gShadow" class="gShadow" style="height: 115px;"></div>
+    </div>
+
+    <script>
+    var content = ["<b>Why isn't my country here?</b><br/>TD AMERITRADE restricts residents of certain countries from opening an account.<p/>","<b>Why isn't my country here?</b><br/>TD AMERITRADE restricts citizens of certain countries from opening an account.<p/>"]
+    </script>
+
+
+</div>
+
+
+
+</body></html>
