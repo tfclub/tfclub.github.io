@@ -7,7 +7,7 @@ website was made by me (founder and club president) for the club. It has our con
 Thanks for reading this!
 
 
-- Tfclub is hosted at http://phstfc.com
+- Tfclub is CNAME(d) at http://phstfc.com
 
 - Email: <a href="mailto:luke@lukeaslanian.com">Email Me</a> 
 
