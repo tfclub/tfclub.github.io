@@ -1,0 +1,266 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 31,
+          "y": 415,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div style=\"text-align: center;\"><font color=\"#ffffff\">The Trading and Finance Club at PHS</font></div>",
+          "size": 60,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -1.22,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": true,
+      "active": true,
+      "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
+      "x": 93,
+      "y": 47,
+      "surface": "bg-surf-grad-black"
+    },
+    {
+      "components": [
+        {
+          "src": "http://phstfc.com/contest",
+          "type": "WebFrame",
+          "x": 136,
+          "y": 143,
+          "scale": {
+            "x": 0.7958333333333334,
+            "y": 0.7958333333333334,
+            "width": 764,
+            "height": 611.2
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.36,
+      "rotateY": 0,
+      "rotateZ": 3.14,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "#Contest\n\n&nbsp;\n\n\n",
+      "x": 129,
+      "y": 391
+    },
+    {
+      "components": [
+        {
+          "src": "http://phstfc.com/about",
+          "type": "WebFrame",
+          "x": 151,
+          "y": 150,
+          "scale": {
+            "x": 0.7770833333333333,
+            "y": 0.7770833333333333,
+            "width": 746,
+            "height": 596.8
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 1.34,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "markdown": "\n# How it's going to work\n\n",
+      "x": 448,
+      "y": 247
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 24,
+          "y": 235,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#00b130\">Long</font></b>: Buying</font></div><div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#ff0500\">Short</font></b>: Selling before you own</font></div><div><font face=\"Hammersmith One, sans-serif\"><br></font></div><div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#00b130\">Bullish</font></b>: Want the underlying to go up</font></div><div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#ff0500\">Bearish</font></b>: Want the underlying to go down</font></div>",
+          "size": 50,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 1,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 670,
+      "y": 26,
+      "markdown": "#Basic Terms\n",
+      "background": "bg-solid-light"
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 1,
+          "y": 371,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">Scroll&nbsp;</span><br style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">to&nbsp;</span><br style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">right-</span><br style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">\"I've&nbsp;</span><br style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">never&nbsp;</span><br style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">traded\"</span><br style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(255, 255, 255); font-family: 'Droid Sans Mono', monospace; font-size: 39px; white-space: normal; background-color: rgb(34, 34, 34);\">Videos</span><br>",
+          "size": 35,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 2,
+          "y": 1,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\">Tastytrade</b><span style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\">:</span><br style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\">Where&nbsp;</span><br style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\">Do I</span><br style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\"><span style=\"color: rgb(0, 192, 255); font-size: 47px; white-space: normal; background-color: rgb(34, 34, 34);\">Start</span><br>",
+          "size": 46,
+          "selected": false
+        },
+        {
+          "src": "http://www.tastytrade.com/tt/shows/wdis",
+          "type": "WebFrame",
+          "x": 187,
+          "y": 61,
+          "scale": {
+            "x": 0.8548284313725489,
+            "y": 0.8548284313725489,
+            "width": 726.6041666666666,
+            "height": 581.2833333333333
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 3.14,
+      "rotateY": 3.28,
+      "rotateZ": -0.07,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 1027,
+      "y": 403,
+      "background": "bg-solid-black"
+    },
+    {
+      "components": [
+        {
+          "src": "http://phstfc.com/photo.JPG",
+          "type": "Image",
+          "x": 261,
+          "y": 47,
+          "scale": {
+            "x": 0.34375,
+            "y": 0.34375,
+            "width": 528,
+            "height": 704
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 1.06,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 704,
+      "y": 396,
+      "background": "bg-solid-yellow"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": -1.22,
+      "rotateZ": -1.15,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "markdown": "# Questions?\n\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n- Get everyone's numbers for texting\n- Hand out account logins\n- Contest duration\n- When we should have meetings (times per month, etc.)\n- Officers",
+      "x": 1148,
+      "y": 77,
+      "background": "bg-solid-smoke"
+    },
+    {
+      "components": [],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
+      "x": 917,
+      "y": 233,
+      "background": "bg-solid-light"
+    }
+  ],
+  "background": "bg-solid-sky",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 31,
+        "y": 415,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\"><font color=\"#ffffff\">The Trading and Finance Club at PHS</font></div>",
+        "size": 60,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": -1.22,
+    "rotateZ": 0,
+    "index": 0,
+    "selected": true,
+    "active": true,
+    "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
+    "x": 93,
+    "y": 47,
+    "surface": "bg-surf-grad-black"
+  },
+  "fileName": "presentation-unnamed",
+  "surface": "bg-surf-grad-black",
+  "deckVersion": "1.0",
+  "overviewX": 620.5,
+  "overviewY": 214.5
+}

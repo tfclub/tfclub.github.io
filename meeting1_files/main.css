@@ -16,6 +16,8 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: "Lato", sans-serif;
+    color: #333;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -23,10 +25,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
-    color: rgb(51,51,51);
 }
+
 ol, ul {
     /*list-style: none;*/
 }
@@ -50,15 +53,8 @@ table {
     transform: translate3d(0,0,0);
 }
 */
-/*
-    Now here is when interesting things start to appear.
-    
-    We set up <body> styles with default font and nice gradient in the background.
-    And yes, there is a lot of repetition there because of -prefixes but we don't
-    want to leave anybody behind.
-*/
+
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     min-height: 740px;
     
     background: rgb(215, 215, 215);
