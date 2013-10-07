@@ -4,15 +4,15 @@
       "components": [
         {
           "TextBox": {},
-          "x": 31,
-          "y": 348,
+          "x": 119,
+          "y": 355,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<div style=\"text-align: center;\"><font color=\"#ffffff\">The Trading and Finance Club at PHS</font></div>",
-          "size": 60,
+          "text": "<div style=\"text-align: center;\"><font color=\"#00c0ff\">The Trading and Finance Club at PHS</font></div>",
+          "size": 49,
           "selected": false
         }
       ],
@@ -249,15 +249,15 @@
     "components": [
       {
         "TextBox": {},
-        "x": 31,
-        "y": 348,
+        "x": 119,
+        "y": 355,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "<div style=\"text-align: center;\"><font color=\"#ffffff\">The Trading and Finance Club at PHS</font></div>",
-        "size": 60,
+        "text": "<div style=\"text-align: center;\"><font color=\"#00c0ff\">The Trading and Finance Club at PHS</font></div>",
+        "size": 49,
         "selected": false
       }
     ],
