@@ -22,8 +22,8 @@
       "rotateY": -1.22,
       "rotateZ": 0,
       "index": 0,
-      "selected": true,
-      "active": true,
+      "selected": false,
+      "active": false,
       "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
       "x": 197,
       "y": 165,
@@ -236,50 +236,40 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 7,
-      "selected": false,
-      "active": false,
+      "selected": true,
+      "active": true,
       "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
       "x": 921,
       "y": 279,
-      "background": "bg-solid-light"
+      "background": "bg-custom-00c0ff"
     }
   ],
   "background": "bg-solid-sky",
   "activeSlide": {
-    "components": [
-      {
-        "TextBox": {},
-        "x": 119,
-        "y": 355,
-        "scale": {
-          "x": 1,
-          "y": 1
-        },
-        "type": "TextBox",
-        "text": "<div style=\"text-align: center;\"><font color=\"#00c0ff\">The Trading and Finance Club at PHS</font></div>",
-        "size": 49,
-        "selected": false
-      }
-    ],
+    "components": [],
     "z": 0,
-    "impScale": 3,
+    "impScale": 1,
     "rotateX": 0,
-    "rotateY": -1.22,
+    "rotateY": 0,
     "rotateZ": 0,
-    "index": 0,
+    "index": 7,
     "selected": true,
     "active": true,
-    "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
-    "x": 197,
-    "y": 165,
-    "surface": "bg-surf-grad-black",
-    "background": "bg-solid-black"
+    "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
+    "x": 921,
+    "y": 279,
+    "background": "bg-custom-00c0ff"
   },
   "fileName": "presentation-unnamed",
   "surface": "bg-surf-grad-black",
   "deckVersion": "1.0",
   "customBackgrounds": {
-    "bgs": []
+    "bgs": [
+      {
+        "klass": "bg-custom-00c0ff",
+        "style": "#00c0ff"
+      }
+    ]
   },
   "overviewX": 676.5,
   "overviewY": 309
