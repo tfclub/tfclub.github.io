@@ -163,7 +163,7 @@ function psgNriscf(p) {
 function psgNrirc() {
 	psgNrict = psgNrist("psgNrirc()", psgNricp);
 	try {
-		psgNrici.src = "https://image.providesupport.com/cmd/1aum3goa12lfr144oqlbj59p0z?" + "ps_t=" + psgNrin() + "&ps_l=" + escape(document.location) + "&ps_r=" + escape(document.referrer) + "&ps_s=" + psgNrisid + "" + "&amp%3Bps_t=1380762869098";
+		psgNrici.src = "https://image.providesupport.com/cmd/1aum3goa12lfr144oqlbj59p0z?" + "ps_t=" + psgNrin() + "&ps_l=" + escape(document.location) + "&ps_r=" + escape(document.referrer) + "&ps_s=" + psgNrisid + "" + "&amp%3Bps_t=1381124043846";
 	} catch(e) {
 	}
 }

@@ -5,7 +5,7 @@
         {
           "TextBox": {},
           "x": 31,
-          "y": 415,
+          "y": 348,
           "scale": {
             "x": 1,
             "y": 1
@@ -25,9 +25,10 @@
       "selected": true,
       "active": true,
       "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
-      "x": 93,
-      "y": 47,
-      "surface": "bg-surf-grad-black"
+      "x": 197,
+      "y": 165,
+      "surface": "bg-surf-grad-black",
+      "background": "bg-solid-black"
     },
     {
       "components": [
@@ -54,8 +55,9 @@
       "selected": false,
       "active": false,
       "markdown": "#Contest\n\n&nbsp;\n\n\n",
-      "x": 129,
-      "y": 391
+      "x": 209,
+      "y": 465,
+      "background": "bg-solid-darkgreen"
     },
     {
       "components": [
@@ -82,15 +84,16 @@
       "selected": false,
       "active": false,
       "markdown": "\n# How it's going to work\n\n",
-      "x": 448,
-      "y": 247
+      "x": 507,
+      "y": 312,
+      "background": "bg-solid-yellow"
     },
     {
       "components": [
         {
           "TextBox": {},
-          "x": 24,
-          "y": 235,
+          "x": 26,
+          "y": 219,
           "scale": {
             "x": 1,
             "y": 1
@@ -109,8 +112,8 @@
       "index": 3,
       "selected": false,
       "active": false,
-      "x": 670,
-      "y": 26,
+      "x": 690,
+      "y": 118,
       "markdown": "#Basic Terms\n",
       "background": "bg-solid-light"
     },
@@ -118,8 +121,8 @@
       "components": [
         {
           "TextBox": {},
-          "x": 1,
-          "y": 371,
+          "x": 15,
+          "y": 359,
           "scale": {
             "x": 1,
             "y": 1
@@ -131,8 +134,8 @@
         },
         {
           "TextBox": {},
-          "x": 2,
-          "y": 1,
+          "x": 11,
+          "y": 0,
           "scale": {
             "x": 1,
             "y": 1
@@ -164,8 +167,8 @@
       "index": 4,
       "selected": false,
       "active": false,
-      "x": 1027,
-      "y": 403,
+      "x": 1135,
+      "y": 478,
       "background": "bg-solid-black"
     },
     {
@@ -173,15 +176,28 @@
         {
           "src": "http://phstfc.com/photo.JPG",
           "type": "Image",
-          "x": 261,
-          "y": 47,
+          "x": 365,
+          "y": 188,
           "scale": {
-            "x": 0.34375,
-            "y": 0.34375,
-            "width": 528,
-            "height": 704
+            "x": 0.19205729166666666,
+            "y": 0.19205729166666666,
+            "width": 295,
+            "height": 393.3333333333333
           },
           "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 81,
+          "y": 63,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#ffffff\">...and I talked to him about the club</font>",
+          "size": 57,
           "selected": false
         }
       ],
@@ -193,9 +209,9 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "x": 704,
-      "y": 396,
-      "background": "bg-solid-yellow"
+      "x": 705,
+      "y": 500,
+      "background": "bg-solid-black"
     },
     {
       "components": [],
@@ -208,8 +224,8 @@
       "selected": false,
       "active": false,
       "markdown": "# Questions?\n\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n- Get everyone's numbers for texting\n- Hand out account logins\n- Contest duration\n- When we should have meetings (times per month, etc.)\n- Officers",
-      "x": 1148,
-      "y": 77,
+      "x": 1156,
+      "y": 131,
       "background": "bg-solid-smoke"
     },
     {
@@ -223,8 +239,8 @@
       "selected": false,
       "active": false,
       "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
-      "x": 917,
-      "y": 233,
+      "x": 921,
+      "y": 279,
       "background": "bg-solid-light"
     }
   ],
@@ -234,7 +250,7 @@
       {
         "TextBox": {},
         "x": 31,
-        "y": 415,
+        "y": 348,
         "scale": {
           "x": 1,
           "y": 1
@@ -254,13 +270,17 @@
     "selected": true,
     "active": true,
     "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
-    "x": 93,
-    "y": 47,
-    "surface": "bg-surf-grad-black"
+    "x": 197,
+    "y": 165,
+    "surface": "bg-surf-grad-black",
+    "background": "bg-solid-black"
   },
   "fileName": "presentation-unnamed",
   "surface": "bg-surf-grad-black",
   "deckVersion": "1.0",
-  "overviewX": 620.5,
-  "overviewY": 214.5
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 676.5,
+  "overviewY": 309
 }

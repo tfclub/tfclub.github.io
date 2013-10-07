@@ -28,12 +28,10 @@ a real financial network - financial news and entertainment
 <script>
   //<![CDATA[
     $(function() {
-      LimePlayer.setPlayerMetadata(6512, "<pre>http://www.tastytrade.com/tt/shows/WDIS/episodes/131002_WDIS</pre>")
-    })
+      Live.init(false, 30000);
+    });
   //]]>
 </script>
-
-
 <script>
   //<![CDATA[
     var _gaq = _gaq || [];
@@ -244,17 +242,25 @@ Search
 <div class="container-fluid">
 <div class="wrapper row-fluid">
 <section class="main span9">
+<script>
+  //<![CDATA[
+    $(function() {
+      LimePlayer.setPlayerMetadata(6564, "<pre>http://www.tastytrade.com/tt/shows/WDIS/episodes/131004_WDIS</pre>")
+    })
+  //]]>
+</script>
+
 <section class="video-player">
 <div class="vidwrapper">
 <div class="vid-inner">
 <div class="vidplayer">
 <div class="vidscreen">
 <div class="video" role="video-container">
-<span class="LimelightEmbeddedPlayer" id="limelight_player"><script src="embed.js"></script><object class="LimelightEmbeddedPlayerFlash" data="https://assets.delvenetworks.com/player/loader.swf" height="360" id="limelight_player_382502" name="limelight_player_382502" type="application/x-shockwave-flash" width="640"><embed wmode="transparent"><param name="movie" value="//assets.delvenetworks.com/player/loader.swf"><param name="wmode" value="transparent"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"><param name="flashVars" value="playerForm=b3580168bcda4cb79e78e4b534f6c84e&amp;autoplay=false&amp;mediaId=30592295257e4285801a9a93c06fea51"></object></span>
+<span class="LimelightEmbeddedPlayer" id="limelight_player"><script src="embed.js"></script><object class="LimelightEmbeddedPlayerFlash" data="https://assets.delvenetworks.com/player/loader.swf" height="360" id="limelight_player_382502" name="limelight_player_382502" type="application/x-shockwave-flash" width="640"><embed wmode="transparent"><param name="movie" value="//assets.delvenetworks.com/player/loader.swf"><param name="wmode" value="transparent"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"><param name="flashVars" value="playerForm=b3580168bcda4cb79e78e4b534f6c84e&amp;autoplay=false&amp;mediaId=6a0f35993eb24ba98231da8b463f372e"></object></span>
 </div>
 <div id="audio_only_player" style="display: none;"></div>
 <div class="player_title" data-role="player-title">
-October 2, 2013: A Closer Look at the VIX's IV Percentile 
+October 4, 2013: Market Depth &amp; Market Awareness
 </div>
 </div>
 </div>
@@ -279,22 +285,16 @@ Mon–Fri  |  LIVE 2:00–2:15 pm/CT
 <p>Follow Tom and his daughter, Case, as he guides her through the trading basics. Case will get the answers she needs (you need them, too!) when Tom breaks down the same trading mechanics he uses daily.</p>
 </div>
 <ul class="tab-pane" id="episode_keywords"><li>
-<a href="https://www.tastytrade.com/tt/episodes/keyword/p" alt="See other shows with keyword p" class="tag2">p</a>
+<a href="https://www.tastytrade.com/tt/shows/wdis#" alt="Jump to the section this tag is discussed" class="tag2" onclick="LimePlayer.seek(325);return false;">liquidity</a>
 </li>
 <li>
-<a href="https://www.tastytrade.com/tt/episodes/keyword/vix" alt="See other shows with keyword vix" class="tag4">vix</a>
+<a href="https://www.tastytrade.com/tt/shows/wdis#" alt="Jump to the section this tag is discussed" class="tag4" onclick="LimePlayer.seek(740);return false;">volatility</a>
 </li>
 <li>
-<a href="https://www.tastytrade.com/tt/episodes/keyword/theta" alt="See other shows with keyword theta" class="tag1">theta</a>
+<a href="https://www.tastytrade.com/tt/shows/wdis#" alt="Jump to the section this tag is discussed" class="tag1" onclick="LimePlayer.seek(120);return false;">market depth</a>
 </li>
 <li>
-<a href="https://www.tastytrade.com/tt/episodes/keyword/pandora" alt="See other shows with keyword pandora" class="tag1">pandora</a>
-</li>
-<li>
-<a href="https://www.tastytrade.com/tt/episodes/keyword/theta%20decay" alt="See other shows with keyword theta decay" class="tag1">theta decay</a>
-</li>
-<li>
-<a href="https://www.tastytrade.com/tt/episodes/keyword/iv%20percentile" alt="See other shows with keyword iv percentile" class="tag1">iv percentile</a>
+<a href="https://www.tastytrade.com/tt/shows/wdis#" alt="Jump to the section this tag is discussed" class="tag2" onclick="LimePlayer.seek(180);return false;">market awareness</a>
 </li>
 </ul>
 </div>
@@ -325,7 +325,7 @@ Mon–Fri  |  LIVE 2:00–2:15 pm/CT
 </div>
 <span>Archive <br>Playback</span>
 </li>
-<li class="vid-link link-content" data-html="true" data-placement="bottom" data-role="share" data-title="Share" data-trigger="click" rel="popover" data-content="&lt;pre&gt;&lt;pre&gt;http://www.tastytrade.com/tt/shows/WDIS/episodes/131002_WDIS&lt;/pre&gt;&lt;/pre&gt;" data-original-title="">
+<li class="vid-link link-content" data-html="true" data-placement="bottom" data-role="share" data-title="Share" data-trigger="click" rel="popover" data-content="&lt;pre&gt;&lt;pre&gt;http://www.tastytrade.com/tt/shows/WDIS/episodes/131004_WDIS&lt;/pre&gt;&lt;/pre&gt;" data-original-title="">
 <div class="vf-icon">
 &nbsp;
 </div>
@@ -337,7 +337,7 @@ Mon–Fri  |  LIVE 2:00–2:15 pm/CT
 </div>
 <span>Pop <br>Out</span>
 </li>
-<li class="vid-slides" style="" onclick="$(&quot;a.slide_gallery&quot;).first().click();">
+<li class="vid-slides" style="display: none;">
 <div class="vf-icon">
 &nbsp;
 </div>
@@ -348,7 +348,7 @@ Mon–Fri  |  LIVE 2:00–2:15 pm/CT
 </aside>
 </div>
 </div>
-<div class="slides" style="display:none;"><a href="https://cherrycontentsprod.s3.amazonaws.com/show/33/episode/6512/slides/cia-0.png" class="slide_gallery cboxElement">slide</a></div>
+<div class="slides" style="display:none;"></div>
 </section>
 
 <div class="box ad-long">
@@ -369,6 +369,30 @@ Mon–Fri  |  LIVE 2:00–2:15 pm/CT
 Latest Episodes
 </h2>
 <ul class="vid-clip-large episodes">
+<li>
+<a href="https://www.tastytrade.com/tt/shows/wdis#" class="force-login" data-return="/tt/shows/WDIS/episodes/6564"><figure>
+<img alt="Wdis_show_131004_vod" src="WDIS_Show_131004_VOD.jpg">
+<div class="investor-vid-timestamp">
+<span></span>
+</div>
+</figure>
+</a><h3 class="left">
+Market Depth &amp; Market Awareness
+</h3>
+<p>October 4, 2013</p>
+</li>
+<li>
+<a href="https://www.tastytrade.com/tt/shows/wdis#" class="force-login" data-return="/tt/shows/WDIS/episodes/6537"><figure>
+<img alt="Wdis_show_131003_vod" src="WDIS_Show_131003_VOD.jpg">
+<div class="investor-vid-timestamp">
+<span></span>
+</div>
+</figure>
+</a><h3 class="left">
+Depth of Market
+</h3>
+<p>October 3, 2013</p>
+</li>
 <li>
 <a href="https://www.tastytrade.com/tt/shows/wdis#" class="force-login" data-return="/tt/shows/WDIS/episodes/6512"><figure>
 <img alt="Wdis_show_131002_vod" src="WDIS_Show_131002_VOD.jpg">
@@ -417,30 +441,6 @@ What's the deal with theta decay?
 </h3>
 <p>September 27, 2013</p>
 </li>
-<li>
-<a href="https://www.tastytrade.com/tt/shows/wdis#" class="force-login" data-return="/tt/shows/WDIS/episodes/6397"><figure>
-<img alt="Wdis_show_130926_vod" src="WDIS_Show_130926_VOD.jpg">
-<div class="investor-vid-timestamp">
-<span></span>
-</div>
-</figure>
-</a><h3 class="left">
-Case jumps on the short FB bandwagon
-</h3>
-<p>September 26, 2013</p>
-</li>
-<li>
-<a href="https://www.tastytrade.com/tt/shows/wdis#" class="force-login" data-return="/tt/shows/WDIS/episodes/6372"><figure>
-<img alt="Wdis_show_130925_vod" src="WDIS_Show_130925_VOD.jpg">
-<div class="investor-vid-timestamp">
-<span></span>
-</div>
-</figure>
-</a><h3 class="left">
-Taking profits
-</h3>
-<p>September 25, 2013</p>
-</li>
 </ul>
 
 <div class="more-episodes">
@@ -453,17 +453,13 @@ Taking profits
 </section>
 <aside class="sidebar span3">
 <section class="widget drop-shadow">
-<a href="http://www.chicagoinnovationawards.com/vote/" target="_tt_alert"><div class="drop-shadow">
+<a href="https://www.tastytrade.com/tt/iv" target="_tt_alert"><div class="drop-shadow">
 <div class="alert-wrapper">
 <div class="alert-header">
-<h2>We Need YOUR Vote!</h2>
+<h2>Price Percentile Code</h2>
 </div>
 <div class="alert-subtext">
-<p>tastytrade has been selected as a finalist for the 2013 Chicago Innovation People's Choice Award! 
-
-Please VOTE NOW for tastytrade and spread the word to anyone and everyone! We're listed under the FINANCE Industry (page 9 of voting). 
-
-CLICK HERE
+<p>Click here for steps on how to add the Price Percentile code to your TOS platform!
 </p>
 </div>
 </div>
@@ -536,11 +532,11 @@ Are you a Registered Investment Advisor?
 <div class="bob-trades-box">
 <div class="bob-trades bob-7-days">
 for 7 days
-<div class="count">58</div>
+<div class="count">53</div>
 </div>
 <div class="bob-trades bob-today">
 today
-<div class="count">8</div>
+<div class="count">0</div>
 </div>
 </div>
 </div>
@@ -552,9 +548,9 @@ today
 
 </section>
 <section class="widget widget-letters drop-shadow">
-<div class="box love-letters">
+<div class="box love-letters" data-twttr-id="twttr-sandbox-0">
 <h3 class="title">Tweets</h3>
-<iframe id="twitter-widget-0" class="twitter-timeline twitter-timeline-rendered" scrolling="no" frameborder="0" allowtransparency="true" title="Twitter Timeline Widget" style="border: none; max-width: 100%; min-width: 180px;" width="300" height="634"></iframe>
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-timeline twitter-timeline-rendered" title="Twitter Timeline Widget" style="border: none; max-width: 100%; min-width: 180px;" width="300" height="623"></iframe>
 <script>
   //<![CDATA[
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -729,4 +725,4 @@ in whole or in part is prohibited under penalty of law.
 </div>
 
 
-<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none; padding-bottom: 42px; padding-right: 42px;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;"></div><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div><div id="legal_disclaimer_for_checkout_popup"></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" style="display: none;"></iframe></body></html>
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;"></div><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div><div id="legal_disclaimer_for_checkout_popup"></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" style="display: none;"></iframe></body></html>
