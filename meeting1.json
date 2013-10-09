@@ -22,11 +22,11 @@
       "rotateY": -1.22,
       "rotateZ": 0,
       "index": 0,
-      "selected": false,
-      "active": false,
+      "selected": true,
+      "active": true,
       "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
-      "x": 197,
-      "y": 165,
+      "x": 202,
+      "y": 109,
       "surface": "bg-surf-grad-black",
       "background": "bg-solid-black"
     },
@@ -47,7 +47,7 @@
         }
       ],
       "z": 0,
-      "impScale": 3,
+      "impScale": 2,
       "rotateX": 1.36,
       "rotateY": 0,
       "rotateZ": 3.14,
@@ -55,8 +55,8 @@
       "selected": false,
       "active": false,
       "markdown": "#Contest\n\n&nbsp;\n\n\n",
-      "x": 209,
-      "y": 465,
+      "x": 204,
+      "y": 462,
       "background": "bg-solid-darkgreen"
     },
     {
@@ -85,22 +85,22 @@
       "active": false,
       "markdown": "\n# How it's going to work\n\n",
       "x": 507,
-      "y": 312,
+      "y": 295,
       "background": "bg-solid-yellow"
     },
     {
       "components": [
         {
           "TextBox": {},
-          "x": 26,
-          "y": 219,
+          "x": 57,
+          "y": 160,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#00b130\">Long</font></b>: Buying</font></div><div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#ff0500\">Short</font></b>: Selling before you own</font></div><div><font face=\"Hammersmith One, sans-serif\"><br></font></div><div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#00b130\">Bullish</font></b>: Want the underlying to go up</font></div><div><font face=\"Hammersmith One, sans-serif\">- <b><font color=\"#ff0500\">Bearish</font></b>: Want the underlying to go down</font></div>",
-          "size": 50,
+          "text": "<div>- <font color=\"#00b130\" style=\"font-weight: bold;\">Long stock</font><font color=\"#000000\">: This refers to when &nbsp;you own company stock.&nbsp;</font><span style=\"color: rgb(0, 0, 0);\">Simply put,&nbsp;</span></div><div><span style=\"color: rgb(0, 0, 0);\">when you buy shares of stock, you're long stock.</span></div><div>- <font color=\"#ff0500\" style=\"font-weight: bold;\">Short Stock</font><font color=\"#000000\">: Yes, it's possible to make money on stocks going down.</font></div><div><font color=\"#000000\">Shorting allows you to sell shares you don't already own (borrowing, really)</font></div><div><font color=\"#000000\">at a higher price, and at some future point, you buy back the shares at a&nbsp;</font></div><div><font color=\"#000000\">hopefully lower price.</font></div><div><font color=\"#000000\"><br></font></div><div>- <b style=\"color: rgb(0, 177, 48);\">Bull Market</b><font color=\"#000000\">: A rising market. A trader who is \"bullish\" is speculating&nbsp;</font></div><div><font color=\"#000000\">that stock&nbsp;</font><span style=\"color: rgb(0, 0, 0);\">prices and the market overall will fall.</span></div><div>- <font color=\"#ff0500\" style=\"font-weight: bold;\">Bear Market</font><font color=\"#000000\">: A falling market. A trader who is \"bearish\" is speculating that</font></div><div><font color=\"#000000\">stock prices and the market overall will fall.</font></div><div><font color=\"#000000\"><br></font></div><div><font color=\"#000000\">- </font><font color=\"#00b5c2\" style=\"font-weight: bold;\">Options</font><font color=\"#000000\">: Contracts that are listed on an exchange. When bought or sold,&nbsp;</font></div><div><font color=\"#000000\">options give the investor the right or obligation to buy or sell a security&nbsp;</font></div><div><font color=\"#000000\">or other asset, known as the \"underlying,\" at a certain price. An option&nbsp;</font><span style=\"color: rgb(0, 0, 0);\">is a&nbsp;</span></div><div><font color=\"#000000\">type of derivative investment because it derives its price in part from the&nbsp;</font></div><div><font color=\"#000000\">underlying.</font></div>",
+          "size": 28,
           "selected": false
         }
       ],
@@ -112,8 +112,8 @@
       "index": 3,
       "selected": false,
       "active": false,
-      "x": 690,
-      "y": 118,
+      "x": 664,
+      "y": 122,
       "markdown": "#Basic Terms\n",
       "background": "bg-solid-light"
     },
@@ -148,8 +148,8 @@
         {
           "src": "http://www.tastytrade.com/tt/shows/wdis",
           "type": "WebFrame",
-          "x": 187,
-          "y": 61,
+          "x": 185,
+          "y": 56,
           "scale": {
             "x": 0.8548284313725489,
             "y": 0.8548284313725489,
@@ -167,8 +167,8 @@
       "index": 4,
       "selected": false,
       "active": false,
-      "x": 1135,
-      "y": 478,
+      "x": 1222,
+      "y": 475,
       "background": "bg-solid-black"
     },
     {
@@ -209,24 +209,108 @@
       "index": 5,
       "selected": false,
       "active": false,
-      "x": 705,
-      "y": 500,
+      "x": 586,
+      "y": 493,
       "background": "bg-solid-black"
     },
     {
-      "components": [],
+      "components": [
+        {
+          "TextBox": {},
+          "x": 156,
+          "y": 302,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"League Gothic, sans-serif\" color=\"#eeeeee\">How to</font><font face=\"League Gothic, sans-serif\" color=\"#0dbc00\"> thinkorswim</font><br>",
+          "size": 132,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": -0.7,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "background": "bg-solid-black",
+      "x": 771,
+      "y": 328
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 60,
+          "y": 254,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#000000\"><span style=\"font-family: 'Hammersmith One', sans-serif;\">- Next week- webinar w/ Mary from thinkorswim</span><br><span style=\"font-family: 'Hammersmith One', sans-serif;\">- She can answer questions &amp; maybe do a TOS demo</span></font><br>",
+          "size": 37,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 77,
+          "y": 430,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"Hammersmith One\" style=\"color: rgb(0, 0, 0);\">Read some of the&nbsp;</font><font face=\"Hammersmith One\" color=\"#eeeeee\">How to thinkorswim</font><font face=\"Hammersmith One\" style=\"color: rgb(0, 0, 0);\">&nbsp;<br>manual&nbsp;and&nbsp;come back with questions for her</font><br>",
+          "size": 42,
+          "selected": false
+        }
+      ],
       "z": 0,
       "impScale": 2,
       "rotateX": 0,
       "rotateY": -1.22,
       "rotateZ": -1.15,
-      "index": 6,
+      "index": 7,
       "selected": false,
       "active": false,
-      "markdown": "# Questions?\n\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n- Get everyone's numbers for texting\n- Hand out account logins\n- Contest duration\n- When we should have meetings (times per month, etc.)\n- Officers",
-      "x": 1156,
-      "y": 131,
-      "background": "bg-solid-smoke"
+      "background": "bg-custom-0044ff",
+      "markdown": "# Next Meeting\n",
+      "x": 1181,
+      "y": 140
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 71,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 51,
+          "text": "- Get everyone's numbers for texting<br>- Hand out TOS account logins<br>- Club officers- just because<br>- Pass out How to Thinkorswim manuals<br>- When we are going to have meetings<br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": -1.38,
+      "rotateZ": 3.02,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "markdown": "# Questions?\n",
+      "x": 956,
+      "y": 34,
+      "background": "bg-solid-yellow"
     },
     {
       "components": [],
@@ -234,31 +318,46 @@
       "impScale": 1,
       "rotateX": 0,
       "rotateY": 0,
-      "rotateZ": 0,
-      "index": 7,
-      "selected": true,
-      "active": true,
-      "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
-      "x": 921,
-      "y": 279,
+      "rotateZ": 3.13,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
+      "x": 930,
+      "y": 480,
       "background": "bg-custom-00c0ff"
     }
   ],
   "background": "bg-solid-sky",
   "activeSlide": {
-    "components": [],
+    "components": [
+      {
+        "TextBox": {},
+        "x": 119,
+        "y": 355,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<div style=\"text-align: center;\"><font color=\"#00c0ff\">The Trading and Finance Club at PHS</font></div>",
+        "size": 49,
+        "selected": false
+      }
+    ],
     "z": 0,
-    "impScale": 1,
+    "impScale": 3,
     "rotateX": 0,
-    "rotateY": 0,
+    "rotateY": -1.22,
     "rotateZ": 0,
-    "index": 7,
+    "index": 0,
     "selected": true,
     "active": true,
-    "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n&nbsp;\n&nbsp;\t\n&nbsp;\t\n\n\n#THANKS FOR COMING!",
-    "x": 921,
-    "y": 279,
-    "background": "bg-custom-00c0ff"
+    "markdown": "&nbsp;\n&nbsp;\t\n&nbsp;\t\n&nbsp;\n&nbsp;\n\n\n# PHS - TFC\n\n&nbsp;\n\n",
+    "x": 202,
+    "y": 109,
+    "surface": "bg-surf-grad-black",
+    "background": "bg-solid-black"
   },
   "fileName": "presentation-unnamed",
   "surface": "bg-surf-grad-black",
@@ -268,9 +367,11 @@
       {
         "klass": "bg-custom-00c0ff",
         "style": "#00c0ff"
+      },
+      {
+        "klass": "bg-custom-0044ff",
+        "style": "#0044ff"
       }
     ]
-  },
-  "overviewX": 676.5,
-  "overviewY": 309
+  }
 }

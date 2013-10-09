@@ -24,7 +24,7 @@ function psgNrist(f, t) {
 		return null;
 	}
 }
-var psgNriol = false;
+var psgNriol = true;
 function psgNriow() {
 	if (psgNriol || (1 == 1)) {
 		var pswo = "menubar=0,location=0,scrollbars=auto,resizable=1,status=0,width=650,height=680";
@@ -105,16 +105,10 @@ if (false) {
 var psgNrid = document.getElementById('scgNri');
 if (psgNrid != null) {
 	if (psgNriol || (1 == 1) || (1 == 2)) {
-		var ctt = "";
-		if (ctt != "") {
-			tt = 'alt="' + ctt + '" title="' + ctt + '"';
-		} else {
-			tt = '';
-		}
 		if (false) {
-			psgNrid.innerHTML = '<table style="display:inline" cellspacing="0" cellpadding="0" border="0"><tr><td align="center"><a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/offline-1358541419.gif" width="140" height="60" border="0"'+tt+ '></a></td></tr><tr><td align="center"><a href="http://www.providesupport.com/pb/1aum3goa12lfr144oqlbj59p0z" target="_blank"><img src="https://image.providesupport.com/lcbps.gif" width="140" height="17" border="0"></a></td></tr></table>';
+			psgNrid.innerHTML = '<table style="display:inline" cellspacing="0" cellpadding="0" border="0"><tr><td align="center"><a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/online-1415034019.gif" width="140" height="60" border="0"></a></td></tr><tr><td align="center"><a href="http://www.providesupport.com/pb/1aum3goa12lfr144oqlbj59p0z" target="_blank"><img src="https://image.providesupport.com/lcbps.gif" width="140" height="17" border="0"></a></td></tr></table>';
 		} else {
-			psgNrid.innerHTML = '<a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/offline-1358541419.gif" width="140" height="60" border="0"'+tt+'></a>';
+			psgNrid.innerHTML = '<a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/online-1415034019.gif" width="140" height="60" border="0"></a>';
 		}
 	} else {
 		psgNrid.innerHTML = '';
@@ -163,12 +157,12 @@ function psgNriscf(p) {
 function psgNrirc() {
 	psgNrict = psgNrist("psgNrirc()", psgNricp);
 	try {
-		psgNrici.src = "https://image.providesupport.com/cmd/1aum3goa12lfr144oqlbj59p0z?" + "ps_t=" + psgNrin() + "&ps_l=" + escape(document.location) + "&ps_r=" + escape(document.referrer) + "&ps_s=" + psgNrisid + "" + "&amp%3Bps_t=1381124043846";
+		psgNrici.src = "https://image.providesupport.com/cmd/1aum3goa12lfr144oqlbj59p0z?" + "ps_t=" + psgNrin() + "&ps_l=" + escape(document.location) + "&ps_r=" + escape(document.referrer) + "&ps_s=" + psgNrisid + "" + "&amp%3Bps_t=1381338767020";
 	} catch(e) {
 	}
 }
 psgNrirc();
-var psgNricb = "https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/offline-1358541419.gif";
+var psgNricb = "https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/online-1415034019.gif";
 function psgNrisb(b) {
 	if (psgNricb != b) {
 		var i = document.images['psgNriimage'];
