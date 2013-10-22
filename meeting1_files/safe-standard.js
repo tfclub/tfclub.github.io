@@ -1,4 +1,4 @@
-var psgNrisid = "wEiyPSWeEQdP";
+var psgNrisid = "dtEjIyql0v0B";
 // safe-standard@gecko.js
 
 var psgNriiso;
@@ -112,7 +112,14 @@ if (psgNrid != null) {
 			tt = '';
 		}
 		if (false) {
-			psgNrid.innerHTML = '<table style="display:inline" cellspacing="0" cellpadding="0" border="0"><tr><td align="center"><a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/offline-1600683376.gif" width="140" height="60" border="0"'+tt+ '></a></td></tr><tr><td align="center"><a href="http://www.providesupport.com/pb/1aum3goa12lfr144oqlbj59p0z" target="_blank"><img src="https://image.providesupport.com/lcbps.gif" width="140" height="17" border="0"></a></td></tr></table>';
+			var p1 = '<table style="display:inline;border:0px;border-collapse:collapse;border-spacing:0;"><tr><td style="padding:0px;text-align:center;border:0px;vertical-align:middle"><a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/offline-1600683376.gif" width="140" height="60" style="border:0;display:block;margin:auto"';
+			var p2 = '<td style="padding:0px;text-align:center;border:0px;vertical-align:middle"><a href="http://www.providesupport.com/pb/1aum3goa12lfr144oqlbj59p0z" target="_blank"><img src="https://image.providesupport.com/';
+			var p3 = 'style="border:0;display:block;margin:auto"></a></td></tr></table>';
+			if ((140 >= 140) || (140 >= 60)) {
+				psgNrid.innerHTML = p1+tt+'></a></td></tr><tr>'+p2+'lcbpsh.gif" width="140" height="17"'+p3;
+			} else {
+				psgNrid.innerHTML = p1+tt+'></a></td>'+p2+'lcbpsv.gif" width="17" height="140"'+p3;
+			}
 		} else {
 			psgNrid.innerHTML = '<a href="#" onclick="psgNriow(); return false;"><img name="psgNriimage" src="https://image.providesupport.com/image/1aum3goa12lfr144oqlbj59p0z/offline-1600683376.gif" width="140" height="60" border="0"'+tt+'></a>';
 		}
@@ -163,7 +170,7 @@ function psgNriscf(p) {
 function psgNrirc() {
 	psgNrict = psgNrist("psgNrirc()", psgNricp);
 	try {
-		psgNrici.src = "https://image.providesupport.com/cmd/1aum3goa12lfr144oqlbj59p0z?" + "ps_t=" + psgNrin() + "&ps_l=" + escape(document.location) + "&ps_r=" + escape(document.referrer) + "&ps_s=" + psgNrisid + "" + "&amp%3Bps_t=1382313280074";
+		psgNrici.src = "https://image.providesupport.com/cmd/1aum3goa12lfr144oqlbj59p0z?" + "ps_t=" + psgNrin() + "&ps_l=" + escape(document.location) + "&ps_r=" + escape(document.referrer) + "&ps_s=" + psgNrisid + "" + "&amp%3Bps_t=1382485506286";
 	} catch(e) {
 	}
 }
