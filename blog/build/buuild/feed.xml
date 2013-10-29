@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">TFC Blog</title>
+<subtitle type="text">The Trading and Finance Blog for TFC</subtitle>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://jekyll.gtat.me/feed.xml" />
+<link rel="alternate" type="text/html" href="http://jekyll.gtat.me" />
+<updated>2013-10-28T18:30:20-07:00</updated>
+<id>http://jekyll.gtat.me/</id>
+<author>
+  <name>Luke Aslanian</name>
+  <uri>http://jekyll.gtat.me/</uri>
+  <email>phstfc@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Stay Short (Update One)]]></title>
+  <link rel="alternate" type="text/html" href="http://jekyll.gtat.me/articles/test-post" />
+  <id>http://jekyll.gtat.me/articles/test-post</id>
+  <published>2013-08-17T00:00:00-07:00</published>
+  <updated>2013-08-17T00:00:00-07:00</updated>
+  <author>
+    <name>Luke Aslanian</name>
+    <uri>http://jekyll.gtat.me</uri>
+    <email>phstfc@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;First of all, for all of you who are short futures right now, don’t worry. Really. The market is at all time high, and today’s move is insane. Don’t worry or freak out; it’s likely that we’ll drop from the highs tomorrow after the opening.&lt;/p&gt;
+
+&lt;p&gt;This is how volatile trading futures is though- get used to it guys.&lt;/p&gt;
+
+&lt;p&gt;Also, for everyone who didn’t know or realize it, here’s some important info: one point on the /ES is worth $50 dolars in your account, $25 on the /NQ, and $100 on the /TF.&lt;/p&gt;
+
+&lt;p&gt;Something I use often that might be helpful is something from Tastytrade called “Sosnoff Says.” I talk more about it later, but just to make a point, I’ll quote his last email:&lt;/p&gt;
+
+&lt;p&gt;“It’s been a really interesting week, as many stocks have jumped 10% to 15 % for simply not reporting bad earnings. Yes, it’s crazy! But you probably still want to know who is buying all these stocks at record high prices. Well, to paraphrase a famous quote, “putting those decisions in the hands of people who will pay no price for being wrong is stupid and dangerous.” But no one cares until somebody draws blood. The science of successful trading is recognizing practicality. High margin balances and zero cyclicality are not practical.”&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://jekyll.gtat.me/articles/test-post&quot;&gt;Stay Short (Update One)&lt;/a&gt; was originally published by Luke Aslanian at &lt;a href=&quot;http://jekyll.gtat.me&quot;&gt;TFC Blog&lt;/a&gt; on August 17, 2013.&lt;/p&gt;</content>
+</entry>
+
+</feed>
